@@ -50,12 +50,13 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
+          <form role="form" method="post" action="search.php" accept-charset="UTF-8" class="navbar-form navbar-right">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
-        </form>   
+          </form>
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>

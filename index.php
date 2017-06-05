@@ -47,8 +47,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="add.php">Add</a></li>
           </ul>
           <form role="form" method="post" accept-charset="UTF-8" class="navbar-form navbar-right">
             <div class="form-group">

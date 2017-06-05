@@ -65,7 +65,6 @@
 
       <div class="starter-template">
         <h1>Database Application</h1>
-        <?php print_r($_POST); ?>
         <?php if (empty($_POST)): ?>
         <p class="lead">This is a database application.</p>
         <?php else: ?>

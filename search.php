@@ -65,7 +65,7 @@
 
       <div class="starter-template">
         <h1>Database Application</h1>
-        <p class="lead">You Searched for: <?php echo $_POST['test']; ?></p>
+        <p class="lead">You Searched for: <?php echo $_POST['text']; ?></p>
       </div>
 
     </div><!-- /.container -->

@@ -50,7 +50,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <form role="form" method="post" action="search.php" accept-charset="UTF-8" class="navbar-form navbar-right">
+          <form role="form" method="post" action="index.php" accept-charset="UTF-8" class="navbar-form navbar-right">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
             </div>
@@ -65,7 +65,11 @@
 
       <div class="starter-template">
         <h1>Database Application</h1>
+        <?php if (empty($_POST)): ?>
         <p class="lead">This is a database application.</p>
+        <?php else: ?>
+        <p class="lead">You Searched for: <?php echo $_POST['text']; ?> </p>
+        <?php endif; ?>
       </div>
 
     </div><!-- /.container -->

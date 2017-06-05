@@ -50,9 +50,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <form role="form" method="post" action="index.php" accept-charset="UTF-8" class="navbar-form navbar-right">
+          <form role="form" method="post" accept-charset="UTF-8" class="navbar-form navbar-right">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                <input name="text" type="text" class="form-control" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
@@ -65,6 +65,7 @@
 
       <div class="starter-template">
         <h1>Database Application</h1>
+        <?php print_r($_POST); ?>
         <?php if (empty($_POST)): ?>
         <p class="lead">This is a database application.</p>
         <?php else: ?>

@@ -52,7 +52,7 @@
           </ul>
           <form role="form" method="post" action="search.php" accept-charset="UTF-8" class="navbar-form navbar-right">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                <input name="text" type="text" class="form-control" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
